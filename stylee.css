@@ -1,0 +1,66 @@
+body {
+	font-family: 'Segoe UI',Tahoma, Geneva,sans-serif;
+	background-color:#fdf6f0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	margin:0;
+}
+
+.profile-card{
+	background:white;
+	padding:2rem;
+	border-radius:20px
+	text-align:center;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+	width:90%
+	max-width:420px;
+	border:2px dashed #d8a47f;
+}
+
+.profile-img{
+	width:250px; /*adjust the size here*/
+    height:250px;
+    border-raduis:50%;
+    object-fit:cover;
+    margin-bottom:1rem;
+    border:3px solid #d8a47f;	
+}
+
+h1 {
+	margin:0.5rem,0;
+	color:#4a2c2a;
+	font-family: 'georgia', serif;
+}
+
+.title {
+	font-weight:bold;
+	color:#8b5c4a;
+	font-size:1rem;
+}
+
+.bio {
+	margin: 1rem 0;
+	font-size: 14px;
+	color:#5c3d35;
+	line-height:1.5
+}
+
+.contact {
+	display: inline-block;
+	margin: 0.5rem;
+	text-decoration: none;
+	color: #d8a47f;
+	border:1px solid #d8a47f;
+	padding:0.5rem 1rem;
+	border-raduis: 8px
+	transition: o.3s;
+	
+	
+}
+
+.contact a:hover {
+	background-color:#d8a47f;
+	color:white;
+}
